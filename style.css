@@ -3,13 +3,14 @@ body {
        and use the OS’s UI font as the website font
      */
     font: 100%/1 "Forum";
-    max-width: 100ch;
+    max-width: 70ch;
     margin-inline: auto;
     padding: 5ch;
+    text-align: left;
 }
 
 h1 {
-  font: 200% "Forum";
+  font: 130% "Forum";
 }
 
 .forum-regular {
@@ -17,4 +18,24 @@ h1 {
     font-weight: 400;
     font-style: normal;
   }
-  
+
+.about, .data, .hockey, .words {
+    color: #000000;
+    text-decoration: none;
+}
+
+.about {
+    background-color:#FEF6C9;
+}
+
+.words {
+    background-color:#E1E9D8;
+}
+
+.hockey {
+    background-color:#FFD8D6;
+}
+
+.data {
+    background-color: #E6E6EF;
+}
