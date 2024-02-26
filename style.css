@@ -1,0 +1,20 @@
+body {
+    /* Set line height to 1.5 times the font size
+       and use the OS’s UI font as the website font
+     */
+    font: 100%/1 "Forum";
+    max-width: 100ch;
+    margin-inline: auto;
+    padding: 5ch;
+}
+
+h1 {
+  font: 200% "Forum";
+}
+
+.forum-regular {
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
