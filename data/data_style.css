@@ -10,29 +10,19 @@ h1 {
   font: 130% "Forum";
 }
 
+h2 {
+    font: 100%/1 "Forum";
+    font-weight: bold;
+}
+
 .forum-regular {
     font-family: "Forum", serif;
     font-weight: 400;
     font-style: normal;
 }
 
-.about, .data, .hockey, .words {
+a {
     color: #000000;
     text-decoration: none;
-}
-
-.about {
-    background-color:#FEF6C9;
-}
-
-.words {
-    background-color:#E1E9D8;
-}
-
-.hockey {
-    background-color:#FFD8D6;
-}
-
-.data {
     background-color: #E6E6EF;
 }

@@ -16,23 +16,17 @@ h1 {
     font-style: normal;
 }
 
-.about, .data, .hockey, .words {
+a {
     color: #000000;
-    text-decoration: none;
+    /* font-style: italic; */
+    text-decoration: underline;
+    text-decoration-color: #E1E9D8;
 }
 
-.about {
-    background-color:#FEF6C9;
+.work-title {
+    background-color: #E1E9D8;
 }
 
-.words {
-    background-color:#E1E9D8;
-}
-
-.hockey {
-    background-color:#FFD8D6;
-}
-
-.data {
-    background-color: #E6E6EF;
+li {
+    margin-bottom: .75em;
 }
