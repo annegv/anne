@@ -1,5 +1,5 @@
 body {
-    font: 100%/1 "Forum";
+    font: 90%/1 "Forum";
     max-width: 70ch;
     margin-inline: auto;
     padding: 5ch;
@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  font: 130% "Forum";
+  font: 120% "Forum";
 }
 
 .forum-regular {
@@ -16,17 +16,36 @@ h1 {
     font-style: normal;
 }
 
-a {
+.work-link {
     color: #000000;
     /* font-style: italic; */
+    background-color: #E1E9D8;
+    text-decoration: none;
+}
+
+.magazine-title {
     text-decoration: underline;
     text-decoration-color: #E1E9D8;
 }
 
-.work-title {
-    background-color: #E1E9D8;
+.my-words {
+    display: list-item;
+    list-style-type: "●";
+    padding-inline-start: 1ch;
+    margin-bottom: 1em;
+  }
+
+.my-words::marker {
+    font-size: .5rem;
 }
 
-li {
-    margin-bottom: .75em;
+.others-words {
+    display: list-item;
+    list-style-type: "↗";
+    padding-inline-start: 1ch;
+    margin-bottom: 1em;
+  }
+
+.others-words::marker {
+    font-size: .7rem;
 }
