@@ -10,19 +10,41 @@ h1 {
   font: 120% "Forum";
 }
 
-h2 {
-    font: 90%/1 "Forum";
-    font-weight: bold;
-}
-
 .forum-regular {
     font-family: "Forum", serif;
     font-weight: 400;
     font-style: normal;
 }
 
-a {
+.work-link {
     color: #000000;
-    text-decoration: none;
     background-color: #E6E6EF;
+    text-decoration: none;
+}
+
+.proper-noun {
+    text-decoration: underline;
+    text-decoration-color: #E6E6EF;
+}
+
+.my-data {
+    display: list-item;
+    list-style-type: "↗";
+    padding-inline-start: 1ch;
+    margin-bottom: 1em;
+  }
+
+.my-data::marker {
+    font-size: .7rem;
+}
+
+.others-data {
+    display: list-item;
+    list-style-type: "●";
+    padding-inline-start: 1ch;
+    margin-bottom: 1em;
+  }
+
+.others-data::marker {
+    font-size: .5rem;
 }

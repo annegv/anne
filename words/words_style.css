@@ -18,34 +18,33 @@ h1 {
 
 .work-link {
     color: #000000;
-    /* font-style: italic; */
     background-color: #E1E9D8;
     text-decoration: none;
 }
 
-.magazine-title {
+.proper-noun {
     text-decoration: underline;
     text-decoration-color: #E1E9D8;
 }
 
 .my-words {
     display: list-item;
-    list-style-type: "●";
-    padding-inline-start: 1ch;
-    margin-bottom: 1em;
-  }
-
-.my-words::marker {
-    font-size: .5rem;
-}
-
-.others-words {
-    display: list-item;
     list-style-type: "↗";
     padding-inline-start: 1ch;
     margin-bottom: 1em;
   }
 
-.others-words::marker {
+.my-words::marker {
     font-size: .7rem;
+}
+
+.others-words {
+    display: list-item;
+    list-style-type: "●";
+    padding-inline-start: 1ch;
+    margin-bottom: 1em;
+  }
+
+.others-words::marker {
+    font-size: .5rem;
 }
