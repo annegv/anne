@@ -10,6 +10,14 @@ h1 {
   font: 120% "Forum";
 }
 
+.nav-home {
+    font: 90%/1 "Forum";
+    color: #000000;
+    background-color: none;
+    text-decoration: none;
+    text-align: right;
+}
+
 .forum-regular {
     font-family: "Forum", serif;
     font-weight: 400;

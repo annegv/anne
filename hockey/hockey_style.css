@@ -23,25 +23,3 @@ h1 {
     font-weight: 400;
     font-style: normal;
 }
-
-.work-link {
-    color: #000000;
-    background-color: #FEF6C9;
-    text-decoration: none;
-}
-
-.proper-noun {
-    text-decoration: underline;
-    text-decoration-color: #FEF6C9;
-}
-
-.article {
-    display: list-item;
-    list-style-type: "●";
-    padding-inline-start: 1ch;
-    margin-bottom: 1em;
-  }
-
-.article::marker {
-    font-size: .5rem;
-}
