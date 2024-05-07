@@ -10,6 +10,17 @@ h1 {
   font: 120% "Forum";
 }
 
+h2 {
+    font: 110% "Forum";
+    /* text-decoration: underline; */
+    background-color: #E6E6EF;
+    text-align: center
+}
+
+a {
+    color: #000000;
+}
+
 .forum-regular {
     font-family: "Forum", serif;
     font-weight: 400;
@@ -55,4 +66,11 @@ h1 {
 
 .others-data::marker {
     font-size: .5rem;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
